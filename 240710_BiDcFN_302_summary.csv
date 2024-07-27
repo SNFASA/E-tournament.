@@ -1,0 +1,154 @@
+"loadTime","docTime","fullyLoaded","bytesOut","bytesOutDoc","bytesIn","bytesInDoc","requests","requestsFull","requestsDoc","responses_200","responses_404","responses_other","result","testStartOffset","cached","optimization_checked","main_frame","loadEventStart","loadEventEnd","domContentLoadedEventStart","domContentLoadedEventEnd","URL","connections","final_base_page_request","final_base_page_request_id","final_url","domInteractive","firstPaint","firstContentfulPaint","firstMeaningfulPaint","firstImagePaint","renderBlockingCSS","renderBlockingJS","TTFB","basePageSSLTime","score_cache","score_cdn","score_gzip","score_cookies","score_keep-alive","score_minify","score_combine","score_compress","score_etags","score_progressive_jpeg","gzip_total","gzip_savings","minify_total","minify_savings","image_total","image_savings","base_page_cdn","cpu.ParseHTML","cpu.HTMLDocumentParser::FetchQueuedPreloads","cpu.EventDispatch","cpu.V8.GC_TIME_TO_SAFEPOINT","cpu.CommitLoad","cpu.ResourceFetcher::requestResource","cpu.UpdateLayoutTree","cpu.Layout","cpu.PrePaint","cpu.Paint","cpu.Layerize","cpu.EvaluateScript","cpu.v8.compile","cpu.ParseAuthorStyleSheet","cpu.ResourceChangePriority","cpu.largestContentfulPaint::Candidate","cpu.MarkDOMContent","cpu.HitTest","cpu.FunctionCall","cpu.MarkLoad","cpu.Idle","tester","start_epoch","osVersion","os_version","osPlatform","date","browserVersion","browser_version","throttle_cpu_requested","throttle_cpu","fullyLoadedCPUms","fullyLoadedCPUpct","document_URL","document_hostname","document_origin","domElements","domComplete","PerformancePaintTiming.first-paint","PerformancePaintTiming.first-contentful-paint","base_page_ip_ptr","base_page_cname","base_page_dns_server","browser_name","eventName","test_run_time_ms","testUrl","Colordepth","Dpi","Images","Resolution","generated-content-percent","generated-content-size","meta-viewport","rendered-html","lastVisualChange","render","visualComplete85","visualComplete90","visualComplete95","visualComplete99","visualComplete","SpeedIndex","LargestContentfulPaintType","LargestContentfulPaintNodeType","LargestContentfulPaintImageURL","chromeUserTiming.navigationStart","chromeUserTiming.fetchStart","chromeUserTiming.domLoading","chromeUserTiming.responseEnd","chromeUserTiming.domInteractive","chromeUserTiming.domContentLoadedEventStart","chromeUserTiming.domContentLoadedEventEnd","chromeUserTiming.domComplete","chromeUserTiming.unloadEventStart","chromeUserTiming.unloadEventEnd","chromeUserTiming.markAsMainFrame","chromeUserTiming.commitNavigationEnd","chromeUserTiming.firstPaint","chromeUserTiming.firstContentfulPaint","chromeUserTiming.firstMeaningfulPaintCandidate","chromeUserTiming.firstMeaningfulPaint","chromeUserTiming.firstImagePaint","chromeUserTiming.loadEventStart","chromeUserTiming.loadEventEnd","chromeUserTiming.LargestTextPaint","chromeUserTiming.LargestContentfulPaint","chromeUserTiming.LargestImagePaint","chromeUserTiming.TotalLayoutShift","chromeUserTiming.CumulativeLayoutShift","FirstInteractive","TTIMeasurementEnd","LastInteractive","FirstCPUIdle","testID","run","step","effectiveBps","domTime","aft","titleTime","domLoading","server_rtt","edge-processed","TimeToInteractive","maxFID","TotalBlockingTime","effectiveBpsDoc","bytes.html","requests.html","bytesUncompressed.html","bytes.js","requests.js","bytesUncompressed.js","bytes.css","requests.css","bytesUncompressed.css","bytes.image","requests.image","bytesUncompressed.image","bytes.flash","requests.flash","bytesUncompressed.flash","bytes.font","requests.font","bytesUncompressed.font","bytes.video","requests.video","bytesUncompressed.video","bytes.other","requests.other","bytesUncompressed.other","id",
+"3513","3513","3971","12498","12498","172013","172013","7","7","7","7","0","0","0","0","0","1","589C77817290366F063D69CB5D78D0A3","1428","1428","690","692","https://e-tournament.infinityfreeapp.com/?i=1","1","1","9767D2D862E0DBFE2FD76E4D6CA4EEE0","https://e-tournament.infinityfreeapp.com/?i=1","690","685.80000000075","2770","2770","3010","1","0","1615","839","75","0","100","-1","100","-1","-1","100","-1","-1","7647","0","-1","-1","99993","0","","5","1","0","0","0","18","35","29","3","5","2","18","1","0","0","0","0","1","10","0","3841","iad-us-asg-gbl9-10.10.1.92","1720583968.0321","Linux 6.5.0-1018-gcp","Linux 6.5.0-1018-gcp","x86_64 x86_64","1720583972.7128","126.0.0.0","126.0.0.0","8","5.8673008080582","8539","56.406869220611","https://e-tournament.infinityfreeapp.com/?i=2","e-tournament.infinityfreeapp.com","https://e-tournament.infinityfreeapp.com","26","1428","685.80000000075","685.80000000075","","","ns2.infinityfreeapp.com","Chrome","Step_1","13881","https://e-tournament.infinityfreeapp.com/?i=1","24","{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}","67.95","1.75","Not found","<html><head><title>E-Tournament</title>
+<style>/* inner styles set by WPT to match CSSOM */body { font-family: sans-serif; overflow: hidden; user-select: none; background-image: url(""assets/bp.png""); background-repeat: no-repeat; background-size: cover; }</style>
+
+<link rel=""shortcut icon"" type=""icon/image/png"" href=""assets/smks.png"">
+<link rel=""stylesheet"" href=""login.css"">
+    </head><body><div class=""hero"">
+        <div class=""titile""><h3>E-Tournament</h3></div>
+         <div class=""form-box"">
+            
+             <div class=""button-box"">
+                 <div id=""btn""></div>
+                 <button type=""button"" class=""login-btn"" onclick=""login()""> Sign In</button>
+                 <button type=""button"" class=""login-btn"" onclick=""Signup()"">Sign up</button>
+             </div>
+
+             <form id=""login"" class=""input-group"" action=""login.php"" method=""post"">
+                 <input style="" color: black;"" type=""text"" class=""input-field"" name=""userid"" placeholder=""userID"" required="""">
+                 <input style="" color: black;"" type=""password"" class=""input-field"" name=""password"" placeholder=""password"" required="""">
+                 <button type=""submit"" class=""submit-btn"">Log in</button>
+             </form>
+                <!--Menyediakan form untuk daftar masuk -->
+             <form id=""Signup"" class=""input-group"" action=""signup.php"" method=""post"">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherID"" placeholder=""TeacherID"" required="""">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherName"" placeholder=""TeacherName"" required="""">
+                <input style=""color: black;"" type=""text"" class=""input-field"" name=""HouseID"" placeholder=""HouseID"" required="""">
+                <input style="" color: black;"" type=""password"" class=""input-field"" name=""Password"" placeholder=""Password"" required="""">
+                <button type=""submit"" class=""submit-btn"">Signup</button>
+            </form>
+         </div>
+    </div>
+
+    <style>/* inner styles set by WPT to match CSSOM */::placeholder { color: black; opacity: 1; }</style>
+
+    <script>
+         var x = document.getElementById(""login"");
+         var y = document.getElementById(""Signup"");
+         var z = document.getElementById(""btn"");
+
+         function Signup(){
+             x.style.left = ""-400px""
+             y.style.left = ""50px""
+             z.style.left = ""110px""
+         }
+
+         
+         function login(){
+             x.style.left = ""50px""
+             y.style.left = ""450px""
+             z.style.left = ""0""
+         }
+    </script></body></html>","3500","2700","3500","3500","3500","3500","3500","3378","background-image","DIV","https://e-tournament.infinityfreeapp.com/assets/bp.png","2084","2090","2383","2364","2775","2775","2776","3513","2375","2375","1725","2378","2770","2770","2770","2770","3010","3513","3513","2770","3590","3590","0","0","2700","7223","2700","2700","240710_BiDcFN_302","1","1","73010","0","0","249","0","0","1","2700","0","0","90628","1081","2","3422","4874","1","13733","534","1","2015","164229","2","164229","0","0","0","0","0","0","0","0","0","1295","1","1295","240710_BiDcFN_302",
+"3598","3598","4071","12498","12498","172013","172013","7","7","7","7","0","0","0","0","0","1","86D03882F0BC6FA75F95F703BE86E879","1459","1459","689","689","https://e-tournament.infinityfreeapp.com/?i=1","1","1","EA8ABA6576266D7378CA55330AB85946","https://e-tournament.infinityfreeapp.com/?i=1","689","698.79999999888","2837","2837","3148","1","0","1632","838","75","0","100","-1","100","-1","-1","100","-1","-1","7647","0","-1","-1","164229","0","","5","1","1","0","0","22","23","26","12","6","1","33","5","0","0","0","0","0","9","0","3927","iad-us-asg-c7z6-10.10.1.89","1720583968.3533","Linux 6.5.0-1018-gcp","Linux 6.5.0-1018-gcp","x86_64 x86_64","1720583972.9676","126.0.0.0","126.0.0.0","8","6.0682560996012","8760","57.254901960797","https://e-tournament.infinityfreeapp.com/?i=2","e-tournament.infinityfreeapp.com","https://e-tournament.infinityfreeapp.com","26","1459","698.79999999888","698.79999999888","","","ns1.infinityfreeapp.com","Chrome","Step_1","14269","https://e-tournament.infinityfreeapp.com/?i=1","24","{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}","67.95","1.75","Not found","<html><head><title>E-Tournament</title>
+<style>/* inner styles set by WPT to match CSSOM */body { font-family: sans-serif; overflow: hidden; user-select: none; background-image: url(""assets/bp.png""); background-repeat: no-repeat; background-size: cover; }</style>
+
+<link rel=""shortcut icon"" type=""icon/image/png"" href=""assets/smks.png"">
+<link rel=""stylesheet"" href=""login.css"">
+    </head><body><div class=""hero"">
+        <div class=""titile""><h3>E-Tournament</h3></div>
+         <div class=""form-box"">
+            
+             <div class=""button-box"">
+                 <div id=""btn""></div>
+                 <button type=""button"" class=""login-btn"" onclick=""login()""> Sign In</button>
+                 <button type=""button"" class=""login-btn"" onclick=""Signup()"">Sign up</button>
+             </div>
+
+             <form id=""login"" class=""input-group"" action=""login.php"" method=""post"">
+                 <input style="" color: black;"" type=""text"" class=""input-field"" name=""userid"" placeholder=""userID"" required="""">
+                 <input style="" color: black;"" type=""password"" class=""input-field"" name=""password"" placeholder=""password"" required="""">
+                 <button type=""submit"" class=""submit-btn"">Log in</button>
+             </form>
+                <!--Menyediakan form untuk daftar masuk -->
+             <form id=""Signup"" class=""input-group"" action=""signup.php"" method=""post"">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherID"" placeholder=""TeacherID"" required="""">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherName"" placeholder=""TeacherName"" required="""">
+                <input style=""color: black;"" type=""text"" class=""input-field"" name=""HouseID"" placeholder=""HouseID"" required="""">
+                <input style="" color: black;"" type=""password"" class=""input-field"" name=""Password"" placeholder=""Password"" required="""">
+                <button type=""submit"" class=""submit-btn"">Signup</button>
+            </form>
+         </div>
+    </div>
+
+    <style>/* inner styles set by WPT to match CSSOM */::placeholder { color: black; opacity: 1; }</style>
+
+    <script>
+         var x = document.getElementById(""login"");
+         var y = document.getElementById(""Signup"");
+         var z = document.getElementById(""btn"");
+
+         function Signup(){
+             x.style.left = ""-400px""
+             y.style.left = ""50px""
+             z.style.left = ""110px""
+         }
+
+         
+         function login(){
+             x.style.left = ""50px""
+             y.style.left = ""450px""
+             z.style.left = ""0""
+         }
+    </script></body></html>","3800","3000","3800","3800","3800","3800","3800","3678","background-image","DIV","https://e-tournament.infinityfreeapp.com/assets/bp.png","2138","2143","2442","2421","2827","2827","2827","3597","2432","2432","1743","2438","2836","2836","2836","2836","3147","3598","3598","2837","3645","3645","0","0","3000","7275","3000","3000","240710_BiDcFN_302","2","1","70526","0","0","170","0","0","1","3000","0","0","87493","1081","2","3422","4874","1","13733","534","1","2015","164229","2","164229","0","0","0","0","0","0","0","0","0","1295","1","1295","240710_BiDcFN_302",
+"3515","3515","4021","12498","12498","172013","172013","7","7","7","7","0","0","0","0","0","1","44B832C4967CE2A65F90B9D0C91F1AF3","1467","1469","711","711","https://e-tournament.infinityfreeapp.com/?i=1","1","1","B31A261621B810A88A12AA2DA4995A4D","https://e-tournament.infinityfreeapp.com/?i=1","711","722.10000000009","2770","2770","3014","1","0","1556","840","75","0","100","-1","100","-1","-1","100","-1","-1","7647","0","-1","-1","164229","0","","4","0","0","0","0","36","26","28","4","19","4","24","9","0","0","0","0","0","8","0","3859","iad-us-asg-xzgv-10.10.1.106","1720583969.2645","Linux 6.5.0-1023-gcp","Linux 6.5.0-1023-gcp","x86_64 x86_64","1720583974.3974","126.0.0.0","126.0.0.0","8","5.9189468649866","8970","58.819672131149","https://e-tournament.infinityfreeapp.com/?i=2","e-tournament.infinityfreeapp.com","https://e-tournament.infinityfreeapp.com","26","1467","722.10000000009","722.10000000009","","","ns5.byet.org","Chrome","Step_1","14427","https://e-tournament.infinityfreeapp.com/?i=1","24","{""dppx"":3,""dpcm"":113.38582677165354,""dpi"":288}","[]","{""absolute"":{""height"":512,""width"":360},""available"":{""height"":512,""width"":360}}","67.95","1.75","Not found","<html><head><title>E-Tournament</title>
+<style>/* inner styles set by WPT to match CSSOM */body { font-family: sans-serif; overflow: hidden; user-select: none; background-image: url(""assets/bp.png""); background-repeat: no-repeat; background-size: cover; }</style>
+
+<link rel=""shortcut icon"" type=""icon/image/png"" href=""assets/smks.png"">
+<link rel=""stylesheet"" href=""login.css"">
+    </head><body><div class=""hero"">
+        <div class=""titile""><h3>E-Tournament</h3></div>
+         <div class=""form-box"">
+            
+             <div class=""button-box"">
+                 <div id=""btn""></div>
+                 <button type=""button"" class=""login-btn"" onclick=""login()""> Sign In</button>
+                 <button type=""button"" class=""login-btn"" onclick=""Signup()"">Sign up</button>
+             </div>
+
+             <form id=""login"" class=""input-group"" action=""login.php"" method=""post"">
+                 <input style="" color: black;"" type=""text"" class=""input-field"" name=""userid"" placeholder=""userID"" required="""">
+                 <input style="" color: black;"" type=""password"" class=""input-field"" name=""password"" placeholder=""password"" required="""">
+                 <button type=""submit"" class=""submit-btn"">Log in</button>
+             </form>
+                <!--Menyediakan form untuk daftar masuk -->
+             <form id=""Signup"" class=""input-group"" action=""signup.php"" method=""post"">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherID"" placeholder=""TeacherID"" required="""">
+                <input style="" color: black;"" type=""text"" class=""input-field"" name=""TeacherName"" placeholder=""TeacherName"" required="""">
+                <input style=""color: black;"" type=""text"" class=""input-field"" name=""HouseID"" placeholder=""HouseID"" required="""">
+                <input style="" color: black;"" type=""password"" class=""input-field"" name=""Password"" placeholder=""Password"" required="""">
+                <button type=""submit"" class=""submit-btn"">Signup</button>
+            </form>
+         </div>
+    </div>
+
+    <style>/* inner styles set by WPT to match CSSOM */::placeholder { color: black; opacity: 1; }</style>
+
+    <script>
+         var x = document.getElementById(""login"");
+         var y = document.getElementById(""Signup"");
+         var z = document.getElementById(""btn"");
+
+         function Signup(){
+             x.style.left = ""-400px""
+             y.style.left = ""50px""
+             z.style.left = ""110px""
+         }
+
+         
+         function login(){
+             x.style.left = ""50px""
+             y.style.left = ""450px""
+             z.style.left = ""0""
+         }
+    </script></body></html>","3570","2677","3570","3570","3570","3570","3570","3415","background-image","DIV","https://e-tournament.infinityfreeapp.com/assets/bp.png","2048","2055","2379","2327","2758","2759","2759","3515","2348","2348","1659","2359","2770","2770","2770","2770","3013","3515","3516","2770","3632","3632","0","0","2677","7211","2677","2677","240710_BiDcFN_302","3","1","69782","0","0","152","0","0","1","2677","0","0","87806","1081","2","3422","4874","1","13733","534","1","2015","164229","2","164229","0","0","0","0","0","0","0","0","0","1295","1","1295","240710_BiDcFN_302",
