@@ -52,6 +52,7 @@ Judges should follow the following procedure to fill out participant waivers:
 
 As the admin (Setiausa), you have full access to the entire system. This includes user management, tournament settings, and data management. Be sure to use your access rights wisely.
 
+https://drive.google.com/file/d/1du-_OuI0CzsFpGuLejoLyCQ37S3_JKMG/view?usp=drive_link
 ## System Requirements
 
 - Operating System: Windows 10, macOS, Linux
